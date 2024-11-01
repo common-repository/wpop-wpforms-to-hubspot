@@ -1,0 +1,20 @@
+.wpforms-panel-field.pro-fields {
+    position: relative;
+    pointer-events: none;
+    padding: 10px;
+}
+.wpforms-panel-field.pro-fields:before {
+    content: '';
+    position: absolute;
+    background: #d95b5b1a;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+}   
+
+.field-desc{
+	position: absolute;
+	margin-top: -12px;
+} 
